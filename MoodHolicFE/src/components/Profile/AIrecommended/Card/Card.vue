@@ -183,10 +183,7 @@
                       src="@/assets/icon/Profile/AIrecommended/Card/rectangle-538.png"/>
                     <div class="frame-wrapper2">
                       <div class="parent2">
-                        <img
-                          class="icon3"
-                          alt=""
-                          src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
+
                         <img
                           class="icon4"
                           alt=""
