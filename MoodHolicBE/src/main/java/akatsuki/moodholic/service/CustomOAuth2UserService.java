@@ -48,7 +48,10 @@ public class CustomOAuth2UserService extends DefaultOAuth2UserService {
         String email = oAuth2Response.getEmail();
         String providerCode = oAuth2Response.getProviderId();
 //        Optional<Member> optionalMember = memberDAO.findByEmailAndProviderId(email, providerId);
+        System.out.println("DB 가기 전");
         Optional<Member> optionalMember = memberDAO.findByProviderCode(providerCode);
+        System.out.println("optionalMember = " + optionalMember);
+
 
         Member member = null;
         if (optionalMember.isPresent()) {
