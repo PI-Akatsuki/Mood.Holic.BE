@@ -2,12 +2,12 @@
   <header>
     <Header/>
   </header>
-  
+
 
   <main>
     <router-view/>
   </main>
-  
+
 <!--    <Card/>-->
 <!--  <List/>-->
 <!--  <View/>-->
@@ -29,6 +29,8 @@
   // import Month from "@/components/Profile/Calendar/Month/Month.vue";
 
 const store = useStore();
+
+
 
 onMounted(async () => {
   await store.dispatch('checkAuth');
